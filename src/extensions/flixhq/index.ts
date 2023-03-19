@@ -88,4 +88,4 @@ class FlixHQ extends MediaProvier {
   console.log(search);
 })();
 
-module.exports = FlixHQ;
+export default FlixHQ;
