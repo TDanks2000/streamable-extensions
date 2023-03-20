@@ -10,7 +10,7 @@ abstract class MediaProvier extends BaseParser {
    *
    * returns media info (including episodes)
    */
-  abstract getMediaInfo(animeId: string, ...args: any): Promise<IMediaInfo>;
+  abstract getMediaInfo(mediaId: string, ...args: any): Promise<IMediaInfo>;
 
   /**
    * takes episode id
@@ -24,7 +24,10 @@ abstract class MediaProvier extends BaseParser {
    *
    * returns episode servers (video links) available
    */
-  abstract getMediaServers(episodeId: string): Promise<IEpisodeServer[]>;
+  abstract getMediaServers(
+    episodeId: string,
+    ...args: any
+  ): Promise<IEpisodeServer[]>;
 }
 
 export default MediaProvier;

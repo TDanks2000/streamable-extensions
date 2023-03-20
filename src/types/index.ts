@@ -21,7 +21,6 @@ import {
   ISubtitle,
   Intro,
   TvType,
-  IMovieEpisode,
   Genres,
   Topics,
 } from "./types";
@@ -49,7 +48,6 @@ export {
   ISubtitle,
   Intro,
   TvType,
-  IMovieEpisode,
   Genres,
   Topics,
 };

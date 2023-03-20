@@ -79,7 +79,7 @@ export interface IMediaInfo extends IMediaResult {
   cover?: string;
   trailer?: Trailer;
 
-  episodes?: IMediaEpisode[] | IMovieEpisode[];
+  episodes?: IMediaEpisode[];
   chapters?: IMangaChapter[];
 
   startDate?: FuzzyDate;
@@ -90,11 +90,12 @@ export interface IMediaInfo extends IMediaResult {
 
 export interface IMediaEpisode {
   id: string;
-  number: number;
   title?: string;
+  url?: string;
+  season?: number;
+  number?: number;
   description?: string;
   isFiller?: boolean;
-  url?: string;
   image?: string;
   releaseDate?: string;
   [x: string]: unknown; // other fields
@@ -207,18 +208,6 @@ export enum TvType {
   TVSERIES = "TV Series",
   MOVIE = "Movie",
   ANIME = "Anime",
-}
-
-export interface IMovieEpisode {
-  id: string;
-  title: string;
-  url?: string;
-  number?: number;
-  season?: number;
-  description?: string;
-  image?: string;
-  releaseDate?: string;
-  [x: string]: unknown; // other fields
 }
 
 export enum Genres {
