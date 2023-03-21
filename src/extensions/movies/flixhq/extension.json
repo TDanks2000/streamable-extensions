@@ -9,7 +9,7 @@
     "link": "https://github.com/tdanks2000"
   },
   "code": {
-    "main": "index.ts",
+    "main": "index.js",
     "utils": {
       "mainURL": "https://flixhq.to",
       "apiURL": null

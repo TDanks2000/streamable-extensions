@@ -9,7 +9,7 @@
     "link": "authors link or website of the extension"
   },
   "code": {
-    "main": "index.ts",
+    "main": "index.js",
     "utils": {
       "mainURL": "website url of the extension",
       "apiURL": "api url of the extension or null"

@@ -9,7 +9,7 @@
     "link": null
   },
   "code": {
-    "main": "index.ts",
+    "main": "index.js",
     "utils": {
       "mainURL": "https://gogoanime.gr",
       "apiURL": "https://ajax.gogo-load.com/ajax"

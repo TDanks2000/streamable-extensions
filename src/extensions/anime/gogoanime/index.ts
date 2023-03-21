@@ -275,12 +275,4 @@ class GogoAnime extends MediaProvier {
   }
 }
 
-(async () => {
-  const gogo = new GogoAnime();
-  const search = await gogo.search("naruto");
-  const info = await gogo.getMediaInfo(search.results[0].id);
-  const sources = await gogo.getMediaSources(info.episodes![0].id);
-  console.log(sources);
-})();
-
 export default GogoAnime;
