@@ -27,4 +27,4 @@ const availableExtensions = (type?: AvailableExtensionTypes) => {
   return available;
 };
 
-console.log(availableExtensions());
+export { availableExtensions };
