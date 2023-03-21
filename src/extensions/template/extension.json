@@ -1,5 +1,5 @@
 {
-  "tpye": "movie || tv || anime",
+  "type": "movie || tv || anime",
   "name": "name of the extension",
   "version": "0.0.1",
   "image": "image of the extension",

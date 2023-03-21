@@ -246,3 +246,10 @@ export enum Topics {
   MERCH = "merch",
   EVENTS = "events",
 }
+
+export enum AvailableExtensionTypes {
+  anime = "anime",
+  manga = "manga",
+  movie = "movie",
+  cartoon = "cartoon",
+}

@@ -1,4 +1,4 @@
-import { StreamingServers } from "./../../../types/types";
+import { StreamingServers } from "../../types/types";
 import axios from "axios";
 import { load } from "cheerio";
 import {
@@ -9,10 +9,10 @@ import {
   ISource,
   MediaProvier,
   TvType,
-} from "../../../types";
+} from "../../types";
 
 import extensionJSON from "./extension.json";
-import { MixDrop, VidCloud } from "../../../extractors";
+import { MixDrop, VidCloud } from "../../extractors";
 
 class FlixHQ extends MediaProvier {
   protected baseUrl: string = extensionJSON.code.utils.mainURL;

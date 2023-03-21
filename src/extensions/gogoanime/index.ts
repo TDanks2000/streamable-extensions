@@ -3,7 +3,7 @@ import {
   MediaStatus,
   StreamingServers,
   SubOrDub,
-} from "./../../../types/types";
+} from "../../types/types";
 import axios from "axios";
 import { load } from "cheerio";
 import {
@@ -13,11 +13,11 @@ import {
   ISearch,
   ISource,
   MediaProvier,
-} from "../../../types";
+} from "../../types";
 
 import extensionJSON from "./extension.json";
-import { GogoCDN, StreamSB } from "../../../extractors";
-import { USER_AGENT } from "../../../utils";
+import { GogoCDN, StreamSB } from "../../extractors";
+import { USER_AGENT } from "../../utils";
 
 class GogoAnime extends MediaProvier {
   protected baseUrl: string = extensionJSON.code.utils.mainURL;
